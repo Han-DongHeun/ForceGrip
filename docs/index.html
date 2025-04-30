@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ForceGrip: VR Grip Force Control</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+.icon-links {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+    .icon-links i {
+      margin-right: 0.5rem;
+    }
+    .video iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border: none;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .placeholder {
+      font-style: italic;
+      color: gray;
+      background: #f7f7f7;
+      padding: 1rem;
+      border-left: 4px solid #ccc;
+    }
+.authors {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.authors p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+.authors a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.authors a:hover {
+  text-decoration: none;
+}
+.authors .emails {
+  font-size: 0.95rem;
+  color: #444;
+  word-break: break-word;
+}
+.authors .affiliations {
+  font-style: italic;
+  color: #555;
+}
+.authors .corresponding {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>ForceGrip: Data-Free Curriculum Learning for Realistic Grip Force Control in VR Hand Manipulation</h1>
+
+  <div class="image">
+    <img src="Representative_Image.jpg" alt="Representative Image of ForceGrip">
+  </div>
+
+<div class="authors">
+  <p>
+    <strong><a href="https://han-dongheun.github.io/" target="_blank">DongHeun Han</strong></a><sup>1</sup>, 
+    <strong>Byungmin Kim</strong><sup>2</sup>, 
+    <strong>RoUn Lee</strong><sup>1</sup>,<br>
+    <strong>KyeongMin Kim</strong><sup>2</sup>, 
+    <strong>Hyoseok Hwang</strong><sup>1</sup>, 
+    <strong><a href="https://siamiz88.github.io/" target="_blank">HyeongYeop Kang</a></strong><sup>2†</sup>
+  </p>
+
+  <p class="affiliations">
+    <sup>1</sup><em>Kyung Hee University, Yongin, South Korea</em><br>
+    <sup>2</sup><em>Korea University, Seoul, South Korea</em><br>
+   <a href="http://iiixr.korea.ac.kr/" target="_blank"> <em>IIIXR LAB</em> </a>
+  </p>
+</div>
+
+  <div class="icon-links">
+    <p>
+      <a href="https://arxiv.org/abs/2503.08061" target="_blank"><i class="fas fa-file-alt"></i>Paper</a>
+      <a href="https://han-dongheun.github.io/ForceGrip" target="_blank"><i class="fab fa-github"></i>Code</a>
+    </p>
+  </div>
+
+<h2 id="video">Video</h2>
+<div class="video">
+  <video controls preload="metadata" style="max-width: 100%;">
+    <source src="ForceGrip_Video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+  <h2>Abstract</h2>
+  <p>
+    Realistic hand manipulation is a key component of immersive virtual reality (VR), yet existing methods often rely on kinematic approaches or motion-capture datasets that omit crucial physical attributes such as contact forces and finger torques. Consequently, these approaches prioritize tight, one-size-fits-all grips rather than reflecting users’ intended force levels.
+  </p>
+  <p>
+    We present <strong>ForceGrip</strong>, a deep learning agent that synthesizes realistic hand manipulation motions, faithfully reflecting the user’s grip force intention. Instead of mimicking predefined motion datasets, ForceGrip uses generated training scenarios—randomizing object shapes, wrist movements, and trigger input flows—to challenge the agent with a broad spectrum of physical interactions.
+  </p>
+  <p>
+    To effectively learn from these complex tasks, we employ a three-phase curriculum learning framework comprising <em>Finger Positioning</em>, <em>Intention Adaptation</em>, and <em>Dynamic Stabilization</em>. This progressive strategy ensures stable hand-object contact, adaptive force control based on user inputs, and robust handling under dynamic conditions. Additionally, a proximity reward function enhances natural finger motions and accelerates training convergence.
+    Quantitative and qualitative evaluations reveal ForceGrip’s superior force controllability and plausibility compared to state-of-the-art methods.
+  </p>
+
+  <h2>BibTeX</h2>
+  <div class="placeholder">
+    BibTeX entry coming soon after official SIGGRAPH 2025 proceedings release.
+  </div>
+
+  <footer style="margin-top: 3rem; font-size: 0.9rem; color: #888;">
+    © 2025 DongHeun Han, Byungmin Kim, RoUn Lee, KyeongMin Kim, Hyoseok Hwang, HyeongYeop Kang.  
+    This page is maintained for academic and research purposes.
+  </footer>
+
+</body>
+</html>
