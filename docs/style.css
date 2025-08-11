@@ -1,4 +1,48 @@
 /* style.css */
+.event-announcement {
+  background: linear-gradient(135deg, #2c3e50, #4e7cb3); /* 어두운 그라디언트 배경 */
+  color: #fff; /* 흰색 글자 */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가로 깊이감 */
+  animation: fadeIn 1s ease-in-out; /* 부드러운 애니메이션 효과 */
+}
+
+.event-announcement h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600; /* 강조된 제목 */
+  letter-spacing: 1px;
+  color: #fff; /* 제목을 흰색으로 설정 */
+}
+
+.event-item {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.event-item a {
+  color: #f39c12; /* 링크를 밝은 주황색으로 변경 */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.event-item a:hover {
+  color: #ecf0f1; /* 호버 시 회색-흰색 계열로 변하면서 더 밝고 눈에 띄게 */
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
