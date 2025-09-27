@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.OnnxRuntime.Gpu.Windows</id>
+    <version>1.20.1</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ORT_icon_for_light_bg.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/Microsoft/onnxruntime</projectUrl>
+    <description>This package contains Windows native shared library artifacts for ONNX Runtime with CUDA.</description>
+    <releaseNotes>Release Def:
+	Branch: refs/heads/rel-1.20.1
+	Commit: 5c1b7ccbff7e5141c1da7a9d963d660e5741c319
+	Build: https://aiinfra.visualstudio.com/Lotus/_build/results?buildId=610694</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>native ONNX Runtime ONNXRuntime Machine Learning MachineLearning</tags>
+    <repository type="git" url="https://github.com/Microsoft/onnxruntime.git" commit="5c1b7ccbff7e5141c1da7a9d963d660e5741c319" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp0.0">
+        <dependency id="Microsoft.ML.OnnxRuntime.Managed" version="1.20.1" />
+      </group>
+      <group targetFramework=".NETStandard0.0">
+        <dependency id="Microsoft.ML.OnnxRuntime.Managed" version="1.20.1" />
+      </group>
+      <group targetFramework=".NETFramework0.0">
+        <dependency id="Microsoft.ML.OnnxRuntime.Managed" version="1.20.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

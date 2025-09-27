@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EvalReplayerSettings
+  objectPrefabs:
+  - {fileID: 9190682160023102946, guid: d8aeeebf36be75142b04b2c8fa19bb87, type: 3}
+  - {fileID: 453054004382382208, guid: 1603efd956fad9f48b0a3234e625948c, type: 3}
+  - {fileID: 7970464954992818875, guid: 160e75d66a800de46bb395797d7d07d2, type: 3}
+  - {fileID: 7970464954992818875, guid: 27c85de8cd5b26942916f844e3b90036, type: 3}
+  - {fileID: 453054004382382208, guid: 653b1980b57cb3d4883ffe94cb6782d0, type: 3}
+  - {fileID: 9190682160023102946, guid: a5ced1e5abaccbf43878d98b6bcc94a5, type: 3}
+  - {fileID: 7970464954992818875, guid: a8db216697ed6d54381e0d9c8a82391d, type: 3}
+  - {fileID: 453054004382382208, guid: e7d056fd70444644e86ed35c2335d66b, type: 3}
+  - {fileID: 9190682160023102946, guid: 93a63b1e7ad230647b35f1ab19237097, type: 3}
+  - {fileID: 7970464954992818875, guid: 677aa21beb66301479bac3b295b0ab05, type: 3}
+  - {fileID: 453054004382382208, guid: a7061f4b0ac46e54399bf031c92a7b02, type: 3}
+  - {fileID: 9190682160023102946, guid: d7cb05c77be37c2499c478ecc0641566, type: 3}
+  - {fileID: 7970464954992818875, guid: 87bbe6d8c3b28774b805c6c2f24e0599, type: 3}
+  - {fileID: 453054004382382208, guid: de03e139681dde34ba4314416e109360, type: 3}
+  - {fileID: 9190682160023102946, guid: 08505fcce709cf3419fd1ac3bb1a6d5c, type: 3}
+  - {fileID: 7057479505949461485, guid: e5d2eea5a397c2642a48e0bb87114fa4, type: 3}
+  - {fileID: 3463042123754820237, guid: 9381e2c71b6c37749bcf7bc96607bc90, type: 3}
+  - {fileID: 4227482928379802281, guid: 7542160aa23e7b843a5ad8c6713642bf, type: 3}
+  - {fileID: 3863973536248051557, guid: 8656d20f78a746b469b363c3e2f6fd85, type: 3}
+  - {fileID: 4928547674314475508, guid: 4afdd9bd996b21c4584f350d4ecf4ca2, type: 3}

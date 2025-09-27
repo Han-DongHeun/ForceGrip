@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ForceGrip | SIGGRAPH 2025</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="title-container">
+  <div class="logo-badge">
+    <a href="https://s2025.siggraph.org" target="_blank" rel="noopener noreferrer">
+      <img src="R1_s2025_Logo_Color_HiRes_Small.png" alt="SIGGRAPH 2025" class="siggraph-logo">
+    </a>
+  </div>
+  <div class="hit-badge">
+    <a href="https://hits.sh/han-dongheun.github.io/ForceGrip">
+      <img alt="Hits"
+           src="https://hits.sh/han-dongheun.github.io/ForceGrip.svg?view=today-total&style=flat-square&label=TODAY%2FTOTAL&color=fe7d37&labelColor=fafafa" />
+    </a>
+  </div>
+  <h1>ForceGrip: Reference-Free Curriculum Learning for Realistic Grip Force Control in VR Hand Manipulation</h1>
+</div>
+
+<div class="image">
+  <img src="Representative_Image.jpg" alt="Representative Image of ForceGrip">
+</div>
+
+<div class="authors">
+  <p>
+    <strong><a href="https://han-dongheun.github.io/" target="_blank">DongHeun Han</a></strong><sup>1</sup>,
+    <strong>Byungmin Kim</strong><sup>2</sup>,
+    <strong>RoUn Lee</strong><sup>1</sup>,<br>
+    <strong>KyeongMin Kim</strong><sup>2</sup>,
+    <strong>Hyoseok Hwang</strong><sup>3</sup>,
+    <strong><a href="https://siamiz88.github.io/" target="_blank">HyeongYeop Kang</a></strong><sup>2*</sup>
+  </p>
+  <p class="affiliations">
+    <sup>1</sup><em><a href="https://iiixr.korea.ac.kr" target="_blank">IIIXR LAB</a>, Kyung Hee University, South Korea</em><br>
+    <sup>2</sup><em><a href="https://iiixr.korea.ac.kr" target="_blank">IIIXR LAB</a>, Korea University, South Korea</em><br>
+    <sup>3</sup><em><a href="https://airlab.khu.ac.kr" target="_blank">AIR Lab</a>, Kyung Hee University, South Korea</em>
+  </p>
+</div>
+
+<div class="icon-links">
+  <p>
+    <a href="https://arxiv.org/abs/2503.08061" target="_blank"><i class="fas fa-file-alt"></i>Paper</a>
+    <a href="https://arxiv.org/src/2503.08061/anc/ForceGrip_Supp.pdf" target="_blank"><i class="fas fa-file-alt"></i>Supp.</a>
+    <span class="disabled-link"><i class="fab fa-github"></i>Code (Coming soon)</span>
+  </p>
+</div>
+
+<h2 id="video">Video</h2>
+<div class="video">
+  <iframe
+    src="https://www.youtube.com/embed/s4T1Bsx4cao"
+    title="ForceGrip Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<h2>Abstract</h2>
+<p>
+  Realistic hand manipulation is a key component of immersive virtual reality (VR), yet existing methods often rely on kinematic approaches
+  or motion-capture datasets that omit crucial physical attributes such as contact forces and finger torques. Consequently, these approaches
+  prioritize tight, one-size-fits-all grips rather than reflecting users’ intended force levels.
+</p>
+<p>
+  We present <strong>ForceGrip</strong>, a deep learning agent that synthesizes realistic hand manipulation motions, faithfully
+  reflecting the user’s grip force intention. Instead of mimicking predefined motion datasets, ForceGrip uses generated training
+  scenarios—randomizing object shapes, wrist movements, and trigger input flows—to challenge the agent with a broad spectrum
+  of physical interactions.
+</p>
+<p>
+  To effectively learn from these complex tasks, we employ a three-phase curriculum learning framework comprising
+  <em>Finger Positioning</em>, <em>Intention Adaptation</em>, and <em>Dynamic Stabilization</em>. This progressive strategy ensures
+  stable hand-object contact, adaptive force control based on user inputs, and robust handling under dynamic conditions. Additionally,
+  a proximity reward function enhances natural finger motions and accelerates training convergence. Quantitative and qualitative
+  evaluations reveal ForceGrip’s superior force controllability and plausibility compared to state-of-the-art methods.
+</p>
+
+<h2>BibTeX</h2>
+<div class="placeholder">
+@inproceedings{Han2025ForceGrip,<br>
+&nbsp;&nbsp;author = {DongHeun Han and Byungmin Kim and RoUn Lee and KyeongMin Kim and Hyoseok Hwang and HyeongYeop Kang},<br>
+&nbsp;&nbsp;title = {ForceGrip: Reference-Free Curriculum Learning for Realistic Grip Force Control in VR Hand Manipulation},<br>
+&nbsp;&nbsp;booktitle = {SIGGRAPH Conference Papers '25},<br>
+&nbsp;&nbsp;year = {2025},<br>
+&nbsp;&nbsp;pages = {1--11},<br>
+&nbsp;&nbsp;doi = {10.1145/3721238.3730738},<br>
+&nbsp;&nbsp;url = {https://doi.org/10.1145/3721238.3730738},<br>
+&nbsp;&nbsp;note = {https://han-dongheun.github.io/ForceGrip}<br>
+}
+</div>
+
+<footer style="margin-top: 3rem; font-size: 0.9rem; color: #888;">
+  © 2025 DongHeun Han, Byungmin Kim, RoUn Lee, KyeongMin Kim, Hyoseok Hwang, HyeongYeop Kang.<br>
+  This page is maintained for academic and research purposes.
+</footer>
+
+</body>
+</html>
