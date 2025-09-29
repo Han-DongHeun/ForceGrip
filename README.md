@@ -7,6 +7,10 @@
 This repository contains the Unity demo project for [**ForceGrip**](https://han-dongheun.github.io/ForceGrip/), a research project presented at **SIGGRAPH 2025**.
 It introduces a reference-free curriculum learning approach for realistic grip force control in VR hand manipulation.
 
+| Pick and Place | Can Squeeze |
+|-------------------|-------------------|
+| ![PickandPlaceTask](docs/PickandPlaceTask.gif) | ![CanSqueezeTask](docs/CanSqueezeTask.gif) |
+
 ---
 
 ## 🧩 How to Run
