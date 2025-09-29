@@ -11,6 +11,7 @@ It introduces a reference-free curriculum learning approach for realistic grip f
 
 ## 🧩 How to Run
 - Unity Editor version: **2022.3.10f1** (recommended)
+- Only the folder **`ForceGrip_UnityProject_ForDemo`** is required.  
 - Open `DemoScene.unity` in the editor.
   - This scene simplifies the **pick-and-place** and **can-squeeze** tasks described in the paper, so you can directly experience the demo.
 - Connect your **Meta Quest** headset via **Meta Quest Link (USB cable)** or **Air Link (wireless)**.
