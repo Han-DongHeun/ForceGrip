@@ -23,8 +23,11 @@ It introduces a reference-free curriculum learning approach for realistic grip f
 - If it does not work correctly on your device, or if you want to connect a different hardware/method,
   you will need to adjust the **wrist transform** and **trigger value input** code sections to control the hand agent.
 - Pre-built binaries are **not provided** — please use the Unity Editor to run the project.
-- If you encounter issues, please open a **GitHub Issue** in this repository.
+- All code may not be perfectly organized for other settings.
+  If you encounter issues, please open a **GitHub Issue** in this repository.
   > Immediate fixes may not be possible, but we will try to respond as best as we can.
+- If you need the **training code**, please contact me by email.
+  > The training code is not organized for release, but may be shared depending on the situation.
 
 ---
 
