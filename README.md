@@ -14,6 +14,7 @@ It introduces a reference-free curriculum learning approach for realistic grip f
 ---
 
 ## 🧩 How to Run
+- Clone this repository (Git LFS in use, ZIP download not supported)
 - Unity Editor version: **2022.3.10f1** (recommended)
 - Only the folder **`ForceGrip_UnityProject_ForDemo`** is required.  
 - Open `DemoScene.unity` in the editor.
