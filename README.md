@@ -22,6 +22,7 @@ It introduces a reference-free curriculum learning approach for realistic grip f
 - Press the **Play** button in Unity Editor.
   - Tested on **Meta Quest 2**, and it should work without additional setup.
   - Other Meta headsets may work, but have not been fully tested.
+- ⚠️ To properly fetch required Unity packages, **Git must be installed** on your system.
 
 ### ⚠️ Notes
 - If it does not work correctly on your device, or if you want to connect a different hardware/method,
