@@ -36,7 +36,7 @@ It introduces a reference-free curriculum learning approach for realistic grip f
 - If you need the **training code**, please contact me by email.
   > The training code is not organized for release, but may be shared depending on the situation.
 
-### Tips
+### 😉 Tips
 - The current training version is configured so that the **trigger value (0–1)** corresponds to a **grip force of 0–10 kg**.
 - A maximum force of 10 kg can be quite strong for grasping lightweight objects.
 - Because the **Oculus hand** uses rather **blunt, rounded capsule colliders**, this can sometimes cause **slipping** during grasping.
